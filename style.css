@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#content {
+  width: 500px;
+  height: 100vh;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--purple);
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+  gap: 16px;
+}
+
+#social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  weight: 236px;
+  height: 24px;
+  margin-top: 68px;
+  gap: 29px;
+}
+
+#avatar {
+  width: 200px;
+  height: 200px;
+  //border: 2px solid var(--purple);
+  box-shadow: 0 0 0 4px var(--body-bg-color), 0 0 0 6px var(--purple);
+  border-radius: 50%;
+  background-color: var(--purple);
+  margin-bottom: 15px;
+}
+
+.button {
+  display: flex;
+  width: 326px;
+  height: 49px;
+  border: 2px solid var(--purple);
+  border-radius: 4px;
+  color: var(--purple);
+  font-weight: 600;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+
+.button:hover {
+  background-color: var(--purple);
+  color: white;
+}
+
+.icons {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
